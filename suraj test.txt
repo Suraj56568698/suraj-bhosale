@@ -1,0 +1,15 @@
+package newt;
+import org .openqa.selenium.By;
+
+public class abc {
+	public static void main (sring[]args){
+		org.openqa.selenium.WebDriver driver = new ChromeDriver();
+		driver.get("https://techpub-connect-demo.netlify.app/html/contactus.html");
+		driver.findElement(by.placeholder="text")=sendkeys("John Doe")).click();
+		driver.findElement(by.placeholder="(text")=sendkeys("(406) 555-0120")).click();
+		driver.findElement(by.placeholder="text")=sendkeys("info@domain.com")).click();
+		driver.findElement(org.openqa.selenium.By.id("commnent")=sendkeys("Subject line")).click();
+		driver.findElement(by.placeholder="theme_btn border_btn active mt-20\")=sendkeys("SUBMIT NOW")).click();
+	
+		
+	}}
